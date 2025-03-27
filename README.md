@@ -1,12 +1,13 @@
 # Open Deep Researcher
 
-Open Deep Researcher is a web application designed to facilitate comprehensive and efficient research by leveraging advanced web technologies.
+Open Deep Researcher is a web application designed to facilitate comprehensive and efficient research by leveraging multi-agent.
 
 ## Features
 
 - **User-Friendly Interface:** Navigate and manage research tasks with ease.
 - **Advanced Search Capabilities:** Utilize powerful search tools to find relevant information quickly.
-- **Data Organization:** Efficiently organize and categorize research data.
+- **Authentication:** Clerk
+- **Database:** Dexie JS
 
 ## Getting Started
 
