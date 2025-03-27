@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Open Deep Researcher
+
+Open Deep Researcher is a web application designed to facilitate comprehensive and efficient research by leveraging advanced web technologies.
+
+## Features
+
+- **User-Friendly Interface:** Navigate and manage research tasks with ease.
+- **Advanced Search Capabilities:** Utilize powerful search tools to find relevant information quickly.
+- **Data Organization:** Efficiently organize and categorize research data.
 
 ## Getting Started
 
-First, run the development server:
+To set up and run Open Deep Researcher locally, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Clone the Repository:**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```bash
+   git clone https://github.com/ajagatobby/open-deep-researcher.git
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. **Navigate to the Project Directory:**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+   ```bash
+   cd open-deep-researcher
+   ```
 
-## Learn More
+3. **Install Dependencies:**
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   npm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. **Run the Development Server:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   npm run dev
+   ```
 
-## Deploy on Vercel
+   The application will be running at [http://localhost:3000](http://localhost:3000). Open this URL in your browser to access the application.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Project Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The project's directory structure is organized as follows:
+
+- **`app/`**: Contains the main application components and pages.
+- **`components/`**: Reusable React components used throughout the application.
+- **`hooks/`**: Custom React hooks to manage state and side effects.
+- **`lib/`**: Utility functions and libraries for various functionalities.
+- **`public/`**: Static assets such as images and fonts.
+- **`schemas/`**: Database schemas and models.
+
+## Contributing
+
+Contributions are welcome! To contribute:
+
+1. **Fork the Repository.**
+2. **Create a New Branch:**
+
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+
+3. **Make Your Changes.**
+4. **Commit Your Changes:**
+
+   ```bash
+   git commit -m 'Add some feature'
+   ```
+
+5. **Push to the Branch:**
+
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+
+6. **Open a Pull Request.**
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
+
+## Acknowledgments
+
+Special thanks to all contributors and the open-source community for their invaluable support.
